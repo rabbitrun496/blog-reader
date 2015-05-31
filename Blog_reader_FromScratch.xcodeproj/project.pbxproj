@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7496E8A21B19050300004C68 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7496E8A11B19050300004C68 /* TableViewController.m */; };
 		74FA1F571B17D09A00BABDAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FA1F561B17D09A00BABDAA /* main.m */; };
 		74FA1F5A1B17D09A00BABDAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FA1F591B17D09A00BABDAA /* AppDelegate.m */; };
-		74FA1F5D1B17D09A00BABDAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FA1F5C1B17D09A00BABDAA /* ViewController.m */; };
 		74FA1F601B17D09A00BABDAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74FA1F5E1B17D09A00BABDAA /* Main.storyboard */; };
 		74FA1F621B17D09A00BABDAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74FA1F611B17D09A00BABDAA /* Images.xcassets */; };
 		74FA1F651B17D09A00BABDAA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74FA1F631B17D09A00BABDAA /* LaunchScreen.xib */; };
@@ -27,13 +27,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7496E8A01B19050300004C68 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		7496E8A11B19050300004C68 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		74FA1F511B17D09A00BABDAA /* Blog_reader_FromScratch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blog_reader_FromScratch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74FA1F551B17D09A00BABDAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74FA1F561B17D09A00BABDAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		74FA1F581B17D09A00BABDAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74FA1F591B17D09A00BABDAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		74FA1F5B1B17D09A00BABDAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		74FA1F5C1B17D09A00BABDAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		74FA1F5F1B17D09A00BABDAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74FA1F611B17D09A00BABDAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		74FA1F641B17D09A00BABDAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,12 +83,12 @@
 			children = (
 				74FA1F581B17D09A00BABDAA /* AppDelegate.h */,
 				74FA1F591B17D09A00BABDAA /* AppDelegate.m */,
-				74FA1F5B1B17D09A00BABDAA /* ViewController.h */,
-				74FA1F5C1B17D09A00BABDAA /* ViewController.m */,
 				74FA1F5E1B17D09A00BABDAA /* Main.storyboard */,
 				74FA1F611B17D09A00BABDAA /* Images.xcassets */,
 				74FA1F631B17D09A00BABDAA /* LaunchScreen.xib */,
 				74FA1F541B17D09A00BABDAA /* Supporting Files */,
+				7496E8A01B19050300004C68 /* TableViewController.h */,
+				7496E8A11B19050300004C68 /* TableViewController.m */,
 			);
 			path = Blog_reader_FromScratch;
 			sourceTree = "<group>";
@@ -219,8 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74FA1F5D1B17D09A00BABDAA /* ViewController.m in Sources */,
 				74FA1F5A1B17D09A00BABDAA /* AppDelegate.m in Sources */,
+				7496E8A21B19050300004C68 /* TableViewController.m in Sources */,
 				74FA1F571B17D09A00BABDAA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +416,7 @@
 				74FA1F761B17D09A00BABDAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74FA1F771B17D09A00BABDAA /* Build configuration list for PBXNativeTarget "Blog_reader_FromScratchTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +425,7 @@
 				74FA1F791B17D09A00BABDAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
